@@ -1,6 +1,6 @@
 {
   "name": "dao-firebird",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "query object for firebird",
   "main": "index.js",
   "scripts": {
@@ -12,9 +12,14 @@
     "node",
     "firebird"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dilterporto/dao-firebird.git"
+  },
   "author": "Dilter Porto",
   "license": "MIT",
   "dependencies": {
-    "node-firebird": "^0.6.7"
+    "node-firebird": "^0.6.7",
+    "q": "^1.4.1"
   }
 }
